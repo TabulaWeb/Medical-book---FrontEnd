@@ -1,0 +1,54 @@
+*{
+    font-family: "Roboto", Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    border-top: 3px solid #369fd9;
+    padding: 26px 0 0;
+    z-index: 9999;
+}
+
+.header__logo p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.header__logo-text{
+    color: #369fd9;
+    font-weight: 500;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu a{
+    color: #5c6164;
+}
+
+.header__menu a:hover{
+    text-decoration: none;
+    color: #369fd9;
+    border-bottom:1px dotted #369fd9;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    margin: 0px 10px;
+    margin-top: -2px;
+    border-radius: 50%;
+    background-image: -webkit-gradient(linear,left top,right top,from(#1799ed),to(#59bffa));
+    background-image: -webkit-linear-gradient(left,#1799ed 0%,#59bffa 100%);
+    background-image: -o-linear-gradient(left,#1799ed 0%,#59bffa 100%);
+    background-image: linear-gradient(to right,#1799ed 0%,#59bffa 100%);
+    content: '';
+}
+
+.headerContent{
+    background-image: url(img/screen_bg.jpg);
+}
