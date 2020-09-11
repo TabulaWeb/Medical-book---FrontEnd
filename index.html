@@ -13,7 +13,7 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col d-flex align-items-center">
                     <div class="header__logo">
                         <p>Официальное оформление<br> <span class="header__logo-text">электронной медкнижки</span></p>
                     </div>
@@ -33,23 +33,318 @@
         </div>
     </header>
 
-    <div class="headerContent">
+    <section class="headerContent">
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-column justify-content-start">
-                    <div class="headerContent__form d-flex flex-column">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <a href="#">Оформить</a>
+                    <div class="headerContent__form">
+                        <form action="" class="d-flex flex-column">
+                            <input type="text" placeholder="ФИО">
+                            <input type="text" placeholder="Дата рождения">
+                            <input type="text" placeholder="Адрес регитрации">
+                            <input type="text" placeholder="Должность">
+                            <input type="text" placeholder="Электронная почта">
+                            <input type="text" placeholder="Номер телефона">
+                        </form>
+                        <div class="screen__form-actions">
+                            <a class="headerContent__form-button btn_yellow" href="#">Оформить</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 d-flex">
+                    <div class="promo__img ">
+                        <img src="img/personal_med.png" alt="">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="promo__title ">
+                        Оформиить <span>медицинскую книжку</span> в течении часа? Легко!
+                    </div>
+                    <div class="promo__descr">
+                        <p>Учитывая то, что прием в государственных установах проходит в порядке живой очереди - процедура обследования и оформления медкнижки может занять несколько дней. Для современных людей это непозволимая роскошь, поэтому наша компания предоставляет качественные услуги оперативного заполнения различных видов медицинских справок.</p>
+                        <p>Мы знаем цену времени, поэтому поможем вам оформить медкнижку в кратчайшие сроки, без осмотра и утомительных очередей. Качество медкнижки и наличие необходимых печатей гарантировано нашими специалистами. Чтобы быстро оформить медкнижку, сделайте заказ онлайн.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services has-striped-bg">
+        <h1 class="services__title"><span>Услуги и</span> цены</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4" >
+                    <div class="services__item">
+                        <div class="services__item-top">
+                            <div class="services__item-img-wrap">
+                                <img src="img/med-knijka1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="services__item-content">
+                            <div class="services__item-info">
+                                <div class="services__item-price-wrap">
+                                    <h4 class="services__item-price"><span>от 2100</span>  руб.</h4>
+                                </div>
+                                <div class="services__item-descr">
+                                    <h5 class="services__item-title">Оформить медкнижку</h5>
+                                    <p>Требуется только фото 3х4</p>
+                                </div>
+                            </div>
+                            <button class="services__btn btnn btn_blue btn_fluid services__item-btn">ОФОРМИТЬ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="services__item">
+                        <div class="services__item-top">
+                            <div class="services__item-img-wrap">
+                                <img src="img/med-knijka1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="services__item-content">
+                            <div class="services__item-info">
+                                <div class="services__item-price-wrap">
+                                    <h4 class="services__item-price"><span>от 1800</span>  руб.</h4>
+                                </div>
+                                <div class="services__item-descr">
+                                    <h5 class="services__item-title">Продлить медкнижку</h5>
+                                    <p>Требуется только фото 3х4</p>
+                                </div>
+                            </div>
+                            <button class="services__btn btnn btn_blue btn_fluid services__item-btn"><span>ОФОРМИТЬ</span>ОФОРМИТЬ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="services__item">
+                        <div class="services__item-top">
+                            <div class="services__item-img-wrap">
+                                <img src="img/med-knijka1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="services__item-content">
+                            <div class="services__item-info">
+                                <div class="services__item-price-wrap">
+                                    <h4 class="services__item-price"><span>от 1400</span>  руб.</h4>
+                                </div>
+                                <div class="services__item-descr">
+                                    <h5 class="services__item-title">Паспорт здоровья</h5>
+                                    <p>Требуется только фото 3х4</p>
+                                </div>
+                            </div>
+                            <button class="services__btn btnn btn_blue btn_fluid services__item-btn">ОФОРМИТЬ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section class="pros has-cover-bg">
+        <h1 class="pros__title section-title section-title_white section-title_center"><span>Плюсы</span> работы с нами</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="pros__item">
+                        <div class="pros__item-icon icon-peoples">
+                        </div> 
+                        <div class="pros__item-content">
+                            <h5 class="pros__item-title">4500+</h5>
+                            <p class="pros__item-descr">довольных клиента</p>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-3">
+                    <div class="pros__item">
+                        <div class="pros__item-icon icon-docs">
+                        </div> 
+                        <div class="pros__item-content">
+                            <h5 class="pros__item-title">100%</h5>
+                            <p class="pros__item-descr">подлинность документов</p>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-3">
+                    <div class="pros__item">
+                        <div class="pros__item-icon icon-calendar">
+                        </div> 
+                        <div class="pros__item-content">
+                            <h5 class="pros__item-title">1 день</h5>
+                            <p class="pros__item-descr">на оформление и доставку</p>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-3">
+                    <div class="pros__item">
+                        <div class="pros__item-icon icon-money-shield">
+                        </div> 
+                        <div class="pros__item-content">
+                            <h5 class="pros__item-title">Лучшая</h5>
+                            <p class="pros__item-descr">стоимость в Челябинске</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reasons">
+        <div class="reasons__container container">
+            <h1 class="reasons__title section-title section-title_black section-title_center">6 причин <span>выбрать нас</span></h1>
+            <div class="reasons__row row">
+                <div class="reasons__col">
+                    <div class="reasons__item reasons__item_l">
+                        <div class="reasons__item-circle"></div>
+                        <h5 class="reasons__item-title">Ежедневно</h5>
+                        <p class="reasons__item-descr">Работаем для Вас без перерывов и выходных</p>
+                    </div>
+                    <div class="reasons__item reasons__item_l">
+                        <div class="reasons__item-circle"></div>
+                        <h5 class="reasons__item-title">Официально</h5>
+                        <p class="reasons__item-descr">Оформляем для Вас документ в отличии от конкурентов</p>
+                    </div>
+                    <div class="reasons__item reasons__item_l">
+                        <div class="reasons__item-circle"></div>
+                        <h5 class="reasons__item-title">Онлайн</h5>
+                        <p class="reasons__item-descr">Подача заявки удобна для Вас</p>
+                    </div>
+                </div>
+                <div class="reasons__center">
+                    <div class="reasons__center-img" style="background-image: url(img/san2.png)"></div>
+                </div>
+                <div class="reasons__col">
+                    <div class="reasons__item reasons__item_r">
+                        <div class="reasons__item-circle"></div>
+                        <h5 class="reasons__item-title">Оформлением</h5>
+                        <p class="reasons__item-descr">Медкнижки будет заниматься действующий врач</p>
+                    </div>
+                    <div class="reasons__item reasons__item_r">
+                        <div class="reasons__item-circle"></div>
+                        <h5 class="reasons__item-title">Удобные</h5>
+                        <p class="reasons__item-descr">Способы оплаты для Вашего заказа</p>
+                    </div>
+                    <div class="reasons__item reasons__item_r">
+                        <div class="reasons__item-circle"></div>
+                        <h5 class="reasons__item-title">Доставка</h5>
+                        <p class="reasons__item-descr">Курьер доставит документ в удобное для Вас место</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work has-striped-bg">
+        <img src="img/circle-decor_blue.svg" alt="" class="work__circle-img circle-decor">
+        <div class="work__container container">
+            <div class="work__title section-title section-title_black section-title_center">Как мы работаем<span>- от заявки до заказа</span></div>
+            <div class="work__row row">
+                <div class="work__item">
+                    <div class="work__item-top">
+                        <span class="work__item-count">01</span>
+                        <div class="work__item-icon icon-smartphone"></div>
+                    </div>
+                    <div class="work__item-text">
+                        <h5 class="work__item-title">Вы звоните нам</h5>
+                        <p class="work__item-descr">Чтобы заказать медкнижку или оформляете заявку с сайта</p>
+                    </div>
+                </div>
+                <div class="work__item">
+                    <div class="work__item-top">
+                        <span class="work__item-count">02</span>
+                        <div class="work__item-icon icon-med-center"></div>
+                    </div>
+                    <div class="work__item-text">
+                        <h5 class="work__item-title">Мы передаем</h5>
+                        <p class="work__item-descr">Заявку в медицинский центр</p>
+                    </div>
+                </div>
+                <div class="work__item">
+                    <div class="work__item-top">
+                        <span class="work__item-count">03</span>
+                        <div class="work__item-icon icon-checklist"></div>
+                    </div>
+                    <div class="work__item-text">
+                        <h5 class="work__item-title">Проверяем</h5>
+                        <p class="work__item-descr">Вас на наличие записей в диспансерах</p>
+                    </div>
+                </div>
+                <div class="work__item">
+                    <div class="work__item-top">
+                        <span class="work__item-count">04</span>
+                        <div class="work__item-icon icon-med-insurance"></div>
+                    </div>
+                    <div class="work__item-text">
+                        <h5 class="work__item-title">Оформляем</h5>
+                        <p class="work__item-descr">Для Вас медкнижку</p>
+                    </div>
+                </div>
+                <div class="work__item">
+                    <div class="work__item-top">
+                        <span class="work__item-count">05</span>
+                        <div class="work__item-icon icon-rocket"></div>
+                    </div>
+                    <div class="work__item-text">
+                        <h5 class="work__item-title">Отправляем</h5>
+                        <p class="work__item-descr">Мед. книжку на вашу электронную почту</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guarantees has-cover-bg" style="background-image: url(img/guarantees_bg.jpg)">
+        <img src="img/circle-decor_blue.svg" alt="" class="guarantees__circle-img circle-decor">
+        <div class="guarantees__container container">
+            <div class="guarantees__content">
+                <div class="guarantees__title section-title section-title_black section-title_left-center">Мы гарантируем</div>
+                <div class="guarantees__row row">
+                    <div class="guarantees__item">
+                        <div class="guarantees__item-icon-wrap">
+                            <div class="guarantees__item-icon icon-zoom-docs"></div>
+                        </div>
+                        <div class="guarantees__item-text">
+                            <h5 class="guarantees__item-title">100%</h5>
+                            <p class="guarantees__item-descr">подлинность документа</p>
+                        </div>
+                    </div>
+                    <div class="guarantees__item">
+                        <div class="guarantees__item-icon-wrap">
+                            <div class="guarantees__item-icon icon-magnifying-glass"></div>
+                        </div>
+                        <div class="guarantees__item-text">
+                            <h5 class="guarantees__item-title">100%</h5>
+                            <p class="guarantees__item-descr">подлинность документа</p>
+                        </div>
+                    </div>
+                    <div class="guarantees__item">
+                        <div class="guarantees__item-icon-wrap">
+                            <div class="guarantees__item-icon icon-handshake"></div>
+                        </div>
+                        <div class="guarantees__item-text">
+                            <h5 class="guarantees__item-title">100%</h5>
+                            <p class="guarantees__item-descr">подлинность документа</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="services__btn btnn btn_blue btn_fluid services__item-btn" style="max-width: 400px;"><span>Заказать</span></button>
+            </div>
+            <img src="img/doctor_2.png" alt="" class="guarantees__bg-img">
+        </div>
+    </section>
+
+    <section class="testimonials has-cover-bg" style="background-image: url(img/testimonials_bg.jpg)">
+        <div class="testimonials__container container">
+            <div class="testimonials__title section-title section-title_white section-title_center">Отзывы клиентов <span>о нашей работе</span></div>
+            <div class="testimonials__slider slider js-testimonials-slider slick-initialized slick-slider slick-dotted"></div>
+        </div>
+    </section>
 
 
 
